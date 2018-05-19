@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^((.*)\.)?(ibuq\.pl)$ [NC]
+RewriteRule ^ http://www.ibuq.org/ [R=302,L,NE]
